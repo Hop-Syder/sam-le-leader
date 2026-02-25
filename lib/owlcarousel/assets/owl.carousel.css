@@ -131,7 +131,11 @@
 .owl-carousel .owl-video-wrapper {
   position: relative;
   height: 100%;
+<<<<<<< HEAD
   background: 000; }
+=======
+  background: #000; }
+>>>>>>> 4dd5e9a (first commit)
 
 .owl-carousel .owl-video-play-icon {
   position: absolute;
