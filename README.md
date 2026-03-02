@@ -1,19 +1,19 @@
-# 🌟 Sam Le Leader DS — Site Vitrine Officiel
+🌟 Sam Le Leader DS — Site Vitrine Officiel
 
 > **Votre partenaire d'excellence multiservices au Bénin**
 > Cocotomey / Abomey-Calavi, Bénin 🇧🇯
 
 ---
 
-## 🏢 À Propos
+🏢 À Propos
 
 **Sam Le Leader DS** est une entreprise multiservices basée à **Cocotomey, Abomey-Calavi (Bénin)**, reconnue pour son excellence opérationnelle et son impact positif dans la communauté. Fondée avec une vision claire — devenir le leader incontesté des services multiservices en Afrique de l'Ouest — l'entreprise conjugue expertise technique, créativité et qualité de service.
 
 ---
 
-## 🎯 Nos Services
+🎯 Nos Services
 
-### 💻 1. Informatique & Bureautique _(Service Principal)_
+💻 1. Informatique & Bureautique _(Service Principal)_
 
 Le pôle informatique de Sam Le Leader DS est votre partenaire pour la maîtrise technologique :
 
@@ -26,7 +26,7 @@ Le pôle informatique de Sam Le Leader DS est votre partenaire pour la maîtrise
 
 ---
 
-### ✂️ 2. Stylisme Haute Couture _(avec Formation)_
+✂️ 2. Stylisme Haute Couture _(avec Formation)_
 
 Exprimez votre élégance avec des créations uniques, pensées pour sublimer chaque silhouette :
 
@@ -37,7 +37,7 @@ Exprimez votre élégance avec des créations uniques, pensées pour sublimer ch
 
 ---
 
-### 🚿 3. Lavage & Nettoyage
+🚿 3. Lavage & Nettoyage
 
 Un service de nettoyage professionnel pour redonner éclat et propreté :
 
@@ -48,13 +48,13 @@ Un service de nettoyage professionnel pour redonner éclat et propreté :
 
 ---
 
-## 💡 Notre Mission
+💡 Notre Mission
 
 > _Offrir des services de haute qualité dans l'informatique, le stylisme haute couture et le lavage, tout en créant des opportunités de formation et d'emploi pour la jeunesse béninoise._
 
 ---
 
-## 🏆 Nos Valeurs
+🏆 Nos Valeurs
 
 | Valeur        | Description                                     |
 | ------------- | ----------------------------------------------- |
@@ -65,27 +65,27 @@ Un service de nettoyage professionnel pour redonner éclat et propreté :
 
 ---
 
-## 🌐 Site Web — Architecture Technique
+🌐 Site Web — Architecture Technique
 
-### Structure du projet
+Structure du projet
 
 ```
 sam-le-leader/
 │
-├── index.html          # Page d'accueil (Hero + Services + Témoignages + Contact)
-├── services.html       # Page détaillée des services
-├── boutique.html       # Galerie photo / Portfolio des réalisations
+├── index.html           Page d'accueil (Hero + Services + Témoignages + Contact)
+├── services.html        Page détaillée des services
+├── boutique.html        Galerie photo / Portfolio des réalisations
 │
 ├── css/
-│   └── style.css       # Styles globaux (design system, composants, responsive)
+│   └── style.css        Styles globaux (design system, composants, responsive)
 │
 ├── js/
-│   └── script.js       # Logique JS : navbar, multilangue (FR/EN), AOS init
+│   └── script.js        Logique JS : navbar, multilangue (FR/EN), AOS init
 │
 ├── assets/
-│   └── formation-pro.jpeg  # Photo de formation (slide carrousel)
+│   └── formation-pro.jpeg   Photo de formation (slide carrousel)
 │
-└── README.md           # Ce fichier
+└── README.md            Ce fichier
 ```
 
 | Technologie                 | Usage                                                   |
@@ -98,18 +98,18 @@ sam-le-leader/
 | **FontAwesome 6**           | Icônes vectorielles                                     |
 | **Google Fonts**            | Typographies : _Outfit_ (titres) + _Inter_ (corps)      |
 
-### Palette de Couleurs
+Palette de Couleurs
 
-| Couleur   | Variable         | Usage                               |
-| --------- | ---------------- | ----------------------------------- |
-| `#f59e0b` | `--primary`      | Gold — accent principal, leadership |
-| `#3b82f6` | `--accent`       | Bleu — informatique                 |
-| `#a855f7` | —                | Violet — haute couture              |
-| `#10b981` | —                | Vert — lavage & nettoyage           |
-| `#0f172a` | `--bg-dark`      | Fond sombre principal               |
-| `#1e293b` | `--bg-secondary` | Fond sections alternées             |
+| Couleur  | Variable         | Usage                               |
+| -------- | ---------------- | ----------------------------------- |
+| `f59e0b` | `--primary`      | Gold — accent principal, leadership |
+| `3b82f6` | `--accent`       | Bleu — informatique                 |
+| `a855f7` | —                | Violet — haute couture              |
+| `10b981` | —                | Vert — lavage & nettoyage           |
+| `0f172a` | `--bg-dark`      | Fond sombre principal               |
+| `1e293b` | `--bg-secondary` | Fond sections alternées             |
 
-### Fonctionnalités
+Fonctionnalités
 
 - ✅ **Design 100% Responsive** (Mobile → Desktop)
 - ✅ **Bilingue FR/EN** — changement de langue instantané sans rechargement
@@ -122,7 +122,7 @@ sam-le-leader/
 
 ---
 
-## 📞 Contact & Accès
+📞 Contact & Accès
 
 | Canal                  | Information                                         |
 | ---------------------- | --------------------------------------------------- |
@@ -135,17 +135,17 @@ sam-le-leader/
 
 ---
 
-## 🚀 Lancement en Local
+🚀 Lancement en Local
 
 Aucune dépendance à installer. Il suffit d'ouvrir le fichier :
 
 ```bash
-# Option 1 : Ouvrir directement dans le navigateur
+ Option 1 : Ouvrir directement dans le navigateur
 xdg-open index.html
 
-# Option 2 : Via un serveur local (recommandé)
+ Option 2 : Via un serveur local (recommandé)
 npx serve .
-# ou
+ ou
 python3 -m http.server 8080
 ```
 
@@ -153,7 +153,7 @@ Puis visiter : `http://localhost:8080`
 
 ---
 
-## 🤝 Crédits & Partenaires
+🤝 Crédits & Partenaires
 
 | Rôle                       | Entité                                                                    |
 | -------------------------- | ------------------------------------------------------------------------- |
