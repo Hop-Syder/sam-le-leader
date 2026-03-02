@@ -1,33 +1,19 @@
-<<<<<<< HEAD
-🌟 Sam Le Leader DS — Site Vitrine Officiel
-=======
 # 🌟 Sam Le Leader DS — Site Vitrine Officiel
->>>>>>> 4dd5e9a (first commit)
 
 > **Votre partenaire d'excellence multiservices au Bénin**
 > Cocotomey / Abomey-Calavi, Bénin 🇧🇯
 
 ---
 
-<<<<<<< HEAD
-🏢 À Propos
-=======
 ## 🏢 À Propos
->>>>>>> 4dd5e9a (first commit)
 
 **Sam Le Leader DS** est une entreprise multiservices basée à **Cocotomey, Abomey-Calavi (Bénin)**, reconnue pour son excellence opérationnelle et son impact positif dans la communauté. Fondée avec une vision claire — devenir le leader incontesté des services multiservices en Afrique de l'Ouest — l'entreprise conjugue expertise technique, créativité et qualité de service.
 
 ---
 
-<<<<<<< HEAD
-🎯 Nos Services
-
-💻 1. Informatique & Bureautique _(Service Principal)_
-=======
 ## 🎯 Nos Services
 
 ### 💻 1. Informatique & Bureautique _(Service Principal)_
->>>>>>> 4dd5e9a (first commit)
 
 Le pôle informatique de Sam Le Leader DS est votre partenaire pour la maîtrise technologique :
 
@@ -40,11 +26,7 @@ Le pôle informatique de Sam Le Leader DS est votre partenaire pour la maîtrise
 
 ---
 
-<<<<<<< HEAD
-✂️ 2. Stylisme Haute Couture _(avec Formation)_
-=======
 ### ✂️ 2. Stylisme Haute Couture _(avec Formation)_
->>>>>>> 4dd5e9a (first commit)
 
 Exprimez votre élégance avec des créations uniques, pensées pour sublimer chaque silhouette :
 
@@ -55,11 +37,7 @@ Exprimez votre élégance avec des créations uniques, pensées pour sublimer ch
 
 ---
 
-<<<<<<< HEAD
-🚿 3. Lavage & Nettoyage
-=======
 ### 🚿 3. Lavage & Nettoyage
->>>>>>> 4dd5e9a (first commit)
 
 Un service de nettoyage professionnel pour redonner éclat et propreté :
 
@@ -70,21 +48,13 @@ Un service de nettoyage professionnel pour redonner éclat et propreté :
 
 ---
 
-<<<<<<< HEAD
-💡 Notre Mission
-=======
 ## 💡 Notre Mission
->>>>>>> 4dd5e9a (first commit)
 
 > _Offrir des services de haute qualité dans l'informatique, le stylisme haute couture et le lavage, tout en créant des opportunités de formation et d'emploi pour la jeunesse béninoise._
 
 ---
 
-<<<<<<< HEAD
-🏆 Nos Valeurs
-=======
 ## 🏆 Nos Valeurs
->>>>>>> 4dd5e9a (first commit)
 
 | Valeur        | Description                                     |
 | ------------- | ----------------------------------------------- |
@@ -95,35 +65,13 @@ Un service de nettoyage professionnel pour redonner éclat et propreté :
 
 ---
 
-<<<<<<< HEAD
-🌐 Site Web — Architecture Technique
-
-Structure du projet
-=======
 ## 🌐 Site Web — Architecture Technique
 
 ### Structure du projet
->>>>>>> 4dd5e9a (first commit)
 
 ```
 sam-le-leader/
 │
-<<<<<<< HEAD
-├── index.html           Page d'accueil (Hero + Services + Témoignages + Contact)
-├── services.html        Page détaillée des services
-├── boutique.html        Galerie photo / Portfolio des réalisations
-│
-├── css/
-│   └── style.css        Styles globaux (design system, composants, responsive)
-│
-├── js/
-│   └── script.js        Logique JS : navbar, multilangue (FR/EN), AOS init
-│
-├── assets/
-│   └── formation-pro.jpeg   Photo de formation (slide carrousel)
-│
-└── README.md            Ce fichier
-=======
 ├── index.html          # Page d'accueil (Hero + Services + Témoignages + Contact)
 ├── services.html       # Page détaillée des services
 ├── boutique.html       # Galerie photo / Portfolio des réalisations
@@ -138,7 +86,6 @@ sam-le-leader/
 │   └── formation-pro.jpeg  # Photo de formation (slide carrousel)
 │
 └── README.md           # Ce fichier
->>>>>>> 4dd5e9a (first commit)
 ```
 
 | Technologie                 | Usage                                                   |
@@ -151,20 +98,6 @@ sam-le-leader/
 | **FontAwesome 6**           | Icônes vectorielles                                     |
 | **Google Fonts**            | Typographies : _Outfit_ (titres) + _Inter_ (corps)      |
 
-<<<<<<< HEAD
-Palette de Couleurs
-
-| Couleur  | Variable         | Usage                               |
-| -------- | ---------------- | ----------------------------------- |
-| `f59e0b` | `--primary`      | Gold — accent principal, leadership |
-| `3b82f6` | `--accent`       | Bleu — informatique                 |
-| `a855f7` | —                | Violet — haute couture              |
-| `10b981` | —                | Vert — lavage & nettoyage           |
-| `0f172a` | `--bg-dark`      | Fond sombre principal               |
-| `1e293b` | `--bg-secondary` | Fond sections alternées             |
-
-Fonctionnalités
-=======
 ### Palette de Couleurs
 
 | Couleur   | Variable         | Usage                               |
@@ -177,7 +110,6 @@ Fonctionnalités
 | `#1e293b` | `--bg-secondary` | Fond sections alternées             |
 
 ### Fonctionnalités
->>>>>>> 4dd5e9a (first commit)
 
 - ✅ **Design 100% Responsive** (Mobile → Desktop)
 - ✅ **Bilingue FR/EN** — changement de langue instantané sans rechargement
@@ -190,11 +122,7 @@ Fonctionnalités
 
 ---
 
-<<<<<<< HEAD
-📞 Contact & Accès
-=======
 ## 📞 Contact & Accès
->>>>>>> 4dd5e9a (first commit)
 
 | Canal                  | Information                                         |
 | ---------------------- | --------------------------------------------------- |
@@ -207,30 +135,17 @@ Fonctionnalités
 
 ---
 
-<<<<<<< HEAD
-🚀 Lancement en Local
-=======
 ## 🚀 Lancement en Local
->>>>>>> 4dd5e9a (first commit)
 
 Aucune dépendance à installer. Il suffit d'ouvrir le fichier :
 
 ```bash
-<<<<<<< HEAD
- Option 1 : Ouvrir directement dans le navigateur
-xdg-open index.html
-
- Option 2 : Via un serveur local (recommandé)
-npx serve .
- ou
-=======
 # Option 1 : Ouvrir directement dans le navigateur
 xdg-open index.html
 
 # Option 2 : Via un serveur local (recommandé)
 npx serve .
 # ou
->>>>>>> 4dd5e9a (first commit)
 python3 -m http.server 8080
 ```
 
@@ -238,11 +153,7 @@ Puis visiter : `http://localhost:8080`
 
 ---
 
-<<<<<<< HEAD
-🤝 Crédits & Partenaires
-=======
 ## 🤝 Crédits & Partenaires
->>>>>>> 4dd5e9a (first commit)
 
 | Rôle                       | Entité                                                                    |
 | -------------------------- | ------------------------------------------------------------------------- |

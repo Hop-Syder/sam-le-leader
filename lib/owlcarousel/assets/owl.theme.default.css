@@ -11,30 +11,17 @@
   text-align: center;
   -webkit-tap-highlight-color: transparent; }
   .owl-theme .owl-nav [class*='owl-'] {
-<<<<<<< HEAD
-    color: FFF;
-    font-size: 14px;
-    margin: 5px;
-    padding: 4px 7px;
-    background: D6D6D6;
-=======
     color: #FFF;
     font-size: 14px;
     margin: 5px;
     padding: 4px 7px;
     background: #D6D6D6;
->>>>>>> 4dd5e9a (first commit)
     display: inline-block;
     cursor: pointer;
     border-radius: 3px; }
     .owl-theme .owl-nav [class*='owl-']:hover {
-<<<<<<< HEAD
-      background: 869791;
-      color: FFF;
-=======
       background: #869791;
       color: #FFF;
->>>>>>> 4dd5e9a (first commit)
       text-decoration: none; }
   .owl-theme .owl-nav .disabled {
     opacity: 0.5;
@@ -54,18 +41,10 @@
       width: 10px;
       height: 10px;
       margin: 5px 7px;
-<<<<<<< HEAD
-      background: D6D6D6;
-=======
       background: #D6D6D6;
->>>>>>> 4dd5e9a (first commit)
       display: block;
       -webkit-backface-visibility: visible;
       transition: opacity 200ms ease;
       border-radius: 30px; }
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-<<<<<<< HEAD
-      background: 869791; }
-=======
       background: #869791; }
->>>>>>> 4dd5e9a (first commit)
