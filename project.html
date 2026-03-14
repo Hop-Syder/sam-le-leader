@@ -133,7 +133,6 @@
         <div class="d-flex justify-content-center flex-wrap gap-2 mb-5 wow fadeIn" data-wow-delay="0.2s">
             <button class="btn btn-primary px-4 py-2 filter-btn active" data-filter="all">Tout voir</button>
             <button class="btn btn-outline-primary px-4 py-2 filter-btn" data-filter="info">💻 Informatique</button>
-            <button class="btn btn-outline-primary px-4 py-2 filter-btn" data-filter="formation">🎓 Formations</button>
             <button class="btn btn-outline-primary px-4 py-2 filter-btn" data-filter="couture"
                 style="--bs-btn-hover-bg: #a855f7; --bs-btn-hover-border-color: #a855f7;">✂️ Stylisme</button>
             <button class="btn btn-outline-primary px-4 py-2 filter-btn" data-filter="tourisme"
@@ -144,61 +143,8 @@
     <!-- Galerie Projets -->
     <div class="container-fluid py-0 pb-5">
         <div class="container">
-            <!-- Formations -->
-            <div class="mb-5 wow fadeIn project-section" data-category="formation" data-wow-delay="0.1s">
-                <div class="d-flex align-items-center mb-4">
-                    <div class="me-3" style="width:4px;height:40px;background:var(--primary);"></div>
-                    <h2 class="mb-0"><i class="fa fa-graduation-cap me-2" style="color:var(--primary);"></i>Formations
-                        DSI Professionnelles</h2>
-                </div>
-                <div class="row g-0">
-                    <div class="col-lg-7">
-                        <div class="row g-0">
-                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.2s">
-                                <div class="project-item position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/project-1.jpg"
-                                        alt="Certification Informatique">
-                                    <a class="project-overlay text-decoration-none" href="service.html#formations">
-                                        <h4 class="text-white">Diplômes</h4><small class="text-white">Validation
-                                            DSI</small>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="project-item position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/about-1.jpg" alt="Cours pratiques">
-                                    <a class="project-overlay text-decoration-none" href="service.html#formations">
-                                        <h4 class="text-white">Pratique</h4><small class="text-white">Ateliers
-                                            concrets</small>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.4s">
-                                <div class="project-item position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Maintenance PC">
-                                    <a class="project-overlay text-decoration-none" href="service.html#formations">
-                                        <h4 class="text-white">Maintenance</h4><small class="text-white">Hardware &
-                                            Software</small>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="d-flex flex-column justify-content-center h-100 p-5"
-                            style="background:var(--primary);">
-                            <h2 class="text-white mb-4">Apprendre par la <span class="text-uppercase px-2"
-                                    style="background:rgba(255,255,255,0.2);">Pratique</span></h2>
-                            <p class="text-white mb-0">Nos formations DSI (O.P.S, PAO, Webmaster) sont conçues pour une
-                                insertion professionnelle immédiate. Nous mettons l'accent sur les projets réels.</p>
-                            <a href="service.html#formations"
-                                class="btn btn-light mt-4 rounded-0 align-self-start px-4">Voir les détails</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <!-- Informatique -->
-            <div class="mb-5 wow fadeIn project-section" data-category="info" data-wow-delay="0.1s">
+            <div class="mb-5 wow fadeIn" data-wow-delay="0.1s">
                 <div class="d-flex align-items-center mb-4">
                     <div class="me-3" style="width:4px;height:40px;background:#2563eb;"></div>
                     <h2 class="mb-0"><i class="fa fa-desktop me-2" style="color:#2563eb;"></i>Informatique &amp;
@@ -251,7 +197,7 @@
             </div>
 
             <!-- Stylisme -->
-            <div class="mb-5 wow fadeIn project-section" data-category="couture" data-wow-delay="0.1s">
+            <div class="mb-5 wow fadeIn" data-wow-delay="0.1s">
                 <div class="d-flex align-items-center mb-4">
                     <div class="me-3" style="width:4px;height:40px;background:#a855f7;"></div>
                     <h2 class="mb-0"><i class="fa fa-cut me-2" style="color:#a855f7;"></i>Stylisme Haute Couture</h2>
@@ -302,7 +248,7 @@
             </div>
 
             <!-- Tourisme -->
-            <div class="mb-5 wow fadeIn project-section" data-category="tourisme" data-wow-delay="0.1s">
+            <div class="mb-5 wow fadeIn" data-wow-delay="0.1s">
                 <div class="d-flex align-items-center mb-4">
                     <div class="me-3" style="width:4px;height:40px;background:#f59e0b;"></div>
                     <h2 class="mb-0"><i class="fa fa-globe-africa me-2" style="color:#f59e0b;"></i>Tourisme & Découverte
@@ -461,26 +407,6 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
-    <!-- Script de filtrage Portfolio -->
-    <script>
-        $(document).ready(function () {
-            $('.filter-btn').click(function () {
-                const filterValue = $(this).attr('data-filter');
-
-                // Update active button
-                $('.filter-btn').removeClass('btn-primary active').addClass('btn-outline-primary');
-                $(this).removeClass('btn-outline-primary').addClass('btn-primary active');
-
-                if (filterValue === 'all') {
-                    $('.project-section').show('300');
-                } else {
-                    $('.project-section').not('[data-category="' + filterValue + '"]').hide('300');
-                    $('.project-section').filter('[data-category="' + filterValue + '"]').show('300');
-                }
-            });
-        });
-    </script>
 </body>
 
 </html>
