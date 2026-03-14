@@ -1,15 +1,60 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" prefix="og: https://ogp.me/ns#">
 
 <head>
     <meta charset="utf-8">
-    <title>Réalisations — Sam Le Leader DS | Galerie Informatique, Couture & Lavage | Bénin</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="keywords"
-        content="réalisations Sam Le Leader DS, galerie projets Bénin, photos couture, lavage voiture portfolio">
+
+    <!-- ===== SEO PRIMAIRE ===== -->
+    <title>Portfolio & Réalisations — Sam Le Leader DS | Galerie Bénin</title>
     <meta name="description"
-        content="Découvrez les réalisations de Sam Le Leader DS : projets informatiques, créations haute couture et lavage auto professionnel à Cocotomey, Abomey-Calavi.">
+        content="Découvrez les réalisations de Sam Le Leader DS : formations informatiques, créations haute couture sur mesure et circuits touristiques au Bénin. Galerie photo à Cocotomey, Abomey-Calavi.">
+    <meta name="keywords"
+        content="réalisations Sam Le Leader DS, portfolio Bénin, galerie couture Abomey-Calavi, tourisme Bénin portfolio, informatique Bénin projets">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <link rel="canonical" href="https://samleleaderds.com/project.html">
+
+    <!-- ===== OPEN GRAPH ===== -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="Sam Le Leader DS">
+    <meta property="og:title" content="Portfolio — Sam Le Leader DS | Bénin">
+    <meta property="og:description"
+        content="Galerie de nos réalisations : informatique, haute couture & tourisme au Bénin.">
+    <meta property="og:url" content="https://samleleaderds.com/project.html">
+    <meta property="og:image" content="https://samleleaderds.com/img/project-1.jpg">
+    <meta property="og:image:alt" content="Réalisations Sam Le Leader DS">
+
+    <!-- ===== TWITTER CARD ===== -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portfolio Réalisations — Sam Le Leader DS">
+    <meta name="twitter:description" content="Galerie informatique, couture & tourisme Bénin 🇧🇯">
+    <meta name="twitter:image" content="https://samleleaderds.com/img/project-1.jpg">
+
+    <!-- ===== FAVICON ===== -->
     <link href="img/favicon.ico" rel="icon">
+    <link rel="apple-touch-icon" href="img/favicon.ico">
+
+    <!-- ===== GOOGLE TAG MANAGER ===== -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W67HVQS5');</script>
+
+    <!-- ===== GOOGLE ANALYTICS 4 (GA4) ===== -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3S6PG5N7S2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-3S6PG5N7S2');
+    </script>
+
+    <!-- ===== POLICES ===== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -24,6 +69,10 @@
 </head>
 
 <body>
+    <!-- ===== GOOGLE TAG MANAGER (noscript) ===== -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W67HVQS5" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+
     <!-- Spinner -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -43,7 +92,8 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="index.html" class="nav-item nav-link">Accueil</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <a href="service.html" class="nav-item nav-link">Services</a><a href="service.html#formations"
+                            class="nav-item nav-link">Formations</a>
                         <a href="project.html" class="nav-item nav-link active">Réalisations</a>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                         <a href="https://wa.me/2290194250447" target="_blank"
@@ -83,18 +133,72 @@
         <div class="d-flex justify-content-center flex-wrap gap-2 mb-5 wow fadeIn" data-wow-delay="0.2s">
             <button class="btn btn-primary px-4 py-2 filter-btn active" data-filter="all">Tout voir</button>
             <button class="btn btn-outline-primary px-4 py-2 filter-btn" data-filter="info">💻 Informatique</button>
+            <button class="btn btn-outline-primary px-4 py-2 filter-btn" data-filter="formation">🎓 Formations</button>
             <button class="btn btn-outline-primary px-4 py-2 filter-btn" data-filter="couture"
                 style="--bs-btn-hover-bg: #a855f7; --bs-btn-hover-border-color: #a855f7;">✂️ Stylisme</button>
-            <button class="btn btn-outline-primary px-4 py-2 filter-btn" data-filter="lavage"
-                style="--bs-btn-hover-bg: #10b981; --bs-btn-hover-border-color: #10b981;">🚿 Lavage</button>
+            <button class="btn btn-outline-primary px-4 py-2 filter-btn" data-filter="tourisme"
+                style="--bs-btn-hover-bg: #f59e0b; --bs-btn-hover-border-color: #f59e0b;">🌍 Tourisme</button>
         </div>
     </div>
 
     <!-- Galerie Projets -->
     <div class="container-fluid py-0 pb-5">
         <div class="container">
+            <!-- Formations -->
+            <div class="mb-5 wow fadeIn project-section" data-category="formation" data-wow-delay="0.1s">
+                <div class="d-flex align-items-center mb-4">
+                    <div class="me-3" style="width:4px;height:40px;background:var(--primary);"></div>
+                    <h2 class="mb-0"><i class="fa fa-graduation-cap me-2" style="color:var(--primary);"></i>Formations
+                        DSI Professionnelles</h2>
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-7">
+                        <div class="row g-0">
+                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/project-1.jpg"
+                                        alt="Certification Informatique">
+                                    <a class="project-overlay text-decoration-none" href="service.html#formations">
+                                        <h4 class="text-white">Diplômes</h4><small class="text-white">Validation
+                                            DSI</small>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/about-1.jpg" alt="Cours pratiques">
+                                    <a class="project-overlay text-decoration-none" href="service.html#formations">
+                                        <h4 class="text-white">Pratique</h4><small class="text-white">Ateliers
+                                            concrets</small>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Maintenance PC">
+                                    <a class="project-overlay text-decoration-none" href="service.html#formations">
+                                        <h4 class="text-white">Maintenance</h4><small class="text-white">Hardware &
+                                            Software</small>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex flex-column justify-content-center h-100 p-5"
+                            style="background:var(--primary);">
+                            <h2 class="text-white mb-4">Apprendre par la <span class="text-uppercase px-2"
+                                    style="background:rgba(255,255,255,0.2);">Pratique</span></h2>
+                            <p class="text-white mb-0">Nos formations DSI (O.P.S, PAO, Webmaster) sont conçues pour une
+                                insertion professionnelle immédiate. Nous mettons l'accent sur les projets réels.</p>
+                            <a href="service.html#formations"
+                                class="btn btn-light mt-4 rounded-0 align-self-start px-4">Voir les détails</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- Informatique -->
-            <div class="mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="mb-5 wow fadeIn project-section" data-category="info" data-wow-delay="0.1s">
                 <div class="d-flex align-items-center mb-4">
                     <div class="me-3" style="width:4px;height:40px;background:#2563eb;"></div>
                     <h2 class="mb-0"><i class="fa fa-desktop me-2" style="color:#2563eb;"></i>Informatique &amp;
@@ -147,7 +251,7 @@
             </div>
 
             <!-- Stylisme -->
-            <div class="mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="mb-5 wow fadeIn project-section" data-category="couture" data-wow-delay="0.1s">
                 <div class="d-flex align-items-center mb-4">
                     <div class="me-3" style="width:4px;height:40px;background:#a855f7;"></div>
                     <h2 class="mb-0"><i class="fa fa-cut me-2" style="color:#a855f7;"></i>Stylisme Haute Couture</h2>
@@ -197,20 +301,21 @@
                 </div>
             </div>
 
-            <!-- Lavage -->
-            <div class="mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <!-- Tourisme -->
+            <div class="mb-5 wow fadeIn project-section" data-category="tourisme" data-wow-delay="0.1s">
                 <div class="d-flex align-items-center mb-4">
-                    <div class="me-3" style="width:4px;height:40px;background:#10b981;"></div>
-                    <h2 class="mb-0"><i class="fa fa-car me-2" style="color:#10b981;"></i>Lavage & Nettoyage
-                        Professionnel</h2>
+                    <div class="me-3" style="width:4px;height:40px;background:#f59e0b;"></div>
+                    <h2 class="mb-0"><i class="fa fa-globe-africa me-2" style="color:#f59e0b;"></i>Tourisme & Découverte
+                        du Bénin</h2>
                 </div>
                 <div class="row g-0">
                     <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="d-flex flex-column justify-content-center h-100 p-5" style="background:#10b981;">
-                            <h2 class="text-white mb-4">Propreté <span class="text-uppercase px-2"
-                                    style="background:rgba(255,255,255,0.2);">Garantie</span></h2>
-                            <p class="text-white mb-0">Voitures, motos, moquettes — nous redonnons vie et éclat à tous
-                                vos véhicules et surfaces avec des produits professionnels de haute qualité.</p>
+                        <div class="d-flex flex-column justify-content-center h-100 p-5" style="background:#f59e0b;">
+                            <h2 class="text-white mb-4">Voyages <span class="text-uppercase px-2"
+                                    style="background:rgba(255,255,255,0.2);">Inoubliables</span></h2>
+                            <p class="text-white mb-0">Circuits culturels, écotourisme et safaris au Bénin. Ouidah,
+                                Abomey,
+                                Pendjari — des expériences authentiques guidées par des experts locaux passionnés.</p>
                             <a href="service.html" class="btn btn-light mt-4 rounded-0 align-self-start px-4">Voir le
                                 service</a>
                         </div>
@@ -219,28 +324,31 @@
                         <div class="row g-0">
                             <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.2s">
                                 <div class="project-item position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/project-3.jpg" alt="Lavage voiture">
+                                    <img class="img-fluid w-100" src="img/tourisme-1.jpg"
+                                        alt="Tourisme culturel Ouidah Bénin" style="object-fit:cover;height:200px;">
                                     <a class="project-overlay text-decoration-none" href="contact.html">
-                                        <h4 class="text-white">Lavage Auto</h4><small class="text-white">Intérieur &
-                                            Extérieur</small>
+                                        <h4 class="text-white">Tourisme Ouidah</h4><small class="text-white">Route des
+                                            esclaves & Vodoun</small>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
                                 <div class="project-item position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/project-4.jpg" alt="Lavage moto">
+                                    <img class="img-fluid w-100" src="img/tourisme-2.jpg" alt="Safari Pendjari Bénin"
+                                        style="object-fit:cover;height:200px;">
                                     <a class="project-overlay text-decoration-none" href="contact.html">
-                                        <h4 class="text-white">Lavage Moto</h4><small class="text-white">Nettoyage
-                                            complet</small>
+                                        <h4 class="text-white">Écotourisme Pendjari</h4><small class="text-white">Safari
+                                            & faune sauvage</small>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.4s">
                                 <div class="project-item position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/project-6.jpg" alt="Nettoyage moquette">
+                                    <img class="img-fluid w-100" src="img/tourisme-3.jpg"
+                                        alt="Visite palais Abomey Bénin" style="object-fit:cover;height:200px;">
                                     <a class="project-overlay text-decoration-none" href="contact.html">
-                                        <h4 class="text-white">Nettoyage</h4><small class="text-white">Moquettes &
-                                            Tapis</small>
+                                        <h4 class="text-white">Palais Abomey</h4><small class="text-white">Héritage
+                                            royal UNESCO</small>
                                     </a>
                                 </div>
                             </div>
@@ -317,7 +425,7 @@
                     <h5 class="text-white mb-4">Nos Services</h5>
                     <a class="btn btn-link" href="service.html">Informatique & Bureautique</a>
                     <a class="btn btn-link" href="service.html">Stylisme Haute Couture</a>
-                    <a class="btn btn-link" href="service.html">Lavage de Voiture</a>
+                    <a class="btn btn-link" href="service.html">Tourisme au Bénin</a>
                     <a class="btn btn-link" href="service.html">Formations Pro</a>
                 </div>
             </div>
@@ -353,6 +461,26 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+
+    <!-- Script de filtrage Portfolio -->
+    <script>
+        $(document).ready(function () {
+            $('.filter-btn').click(function () {
+                const filterValue = $(this).attr('data-filter');
+
+                // Update active button
+                $('.filter-btn').removeClass('btn-primary active').addClass('btn-outline-primary');
+                $(this).removeClass('btn-outline-primary').addClass('btn-primary active');
+
+                if (filterValue === 'all') {
+                    $('.project-section').show('300');
+                } else {
+                    $('.project-section').not('[data-category="' + filterValue + '"]').hide('300');
+                    $('.project-section').filter('[data-category="' + filterValue + '"]').show('300');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

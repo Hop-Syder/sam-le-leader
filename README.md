@@ -17,12 +17,12 @@
 
 Le pôle informatique de Sam Le Leader DS est votre partenaire pour la maîtrise technologique :
 
-| Offre                         | Détail                                                     |
-| ----------------------------- | ---------------------------------------------------------- |
-| 🎓 **Formation**              | Bureautique, secrétariat, outils numériques professionnels |
-| 🛒 **Vente d'ordinateurs**    | Portables, desktops (grandes marques), garantis            |
-| 🖨️ **Équipement bureautique** | Imprimantes, accessoires, périphériques                    |
-| 🔧 **Support technique**      | Maintenance, conseils personnalisés                        |
+| Offre                         | Détail                                                    |
+| ----------------------------- | --------------------------------------------------------- |
+| 🎓 **Formation DSI**          | Bureautique, secrétariat, infographie, maintenance et web |
+| 🛒 **Vente d'ordinateurs**    | Portables, desktops (grandes marques), garantis           |
+| 🖨️ **Équipement bureautique** | Imprimantes, accessoires, périphériques                   |
+| 🔧 **Support technique**      | Maintenance, conseils personnalisés                       |
 
 ---
 
@@ -37,20 +37,20 @@ Exprimez votre élégance avec des créations uniques, pensées pour sublimer ch
 
 ---
 
-### 🚿 3. Lavage & Nettoyage
+### 🌍 3. Tourisme & Découverte du Bénin
 
-Un service de nettoyage professionnel pour redonner éclat et propreté :
+Explorez la richesse culturelle et naturelle du Bénin avec nos circuits sur mesure :
 
-- 🚗 **Lavage complet de voitures** (extérieur + intérieur)
-- 🏍️ **Lavage de motos** avec soin et précision
-- 🧹 **Nettoyage professionnel de moquettes** et tapis
-- ✨ **Nettoyage en profondeur** et protection des surfaces
+- 🏛️ **Tourisme Culturel** : Ouidah (Route des Esclaves), Palais Royaux d'Abomey (UNESCO).
+- 🦁 **Safari & Nature** : Parc National de la Pendjari, Écotourisme et zones protégées.
+- 🚣 **Immersion Locale** : Ganvié (la Venise de l'Afrique), marchés traditionnels et Vodoun.
+- 🗺️ **Guides Professionnels** : Accompagnement expert et logistique complète.
 
 ---
 
 ## 💡 Notre Mission
 
-> _Offrir des services de haute qualité dans l'informatique, le stylisme haute couture et le lavage, tout en créant des opportunités de formation et d'emploi pour la jeunesse béninoise._
+> _Offrir des services de haute qualité dans l'informatique, le stylisme haute couture et le tourisme, tout en créant des opportunités de formation et d'emploi pour la jeunesse béninoise._
 
 ---
 
@@ -73,52 +73,47 @@ Un service de nettoyage professionnel pour redonner éclat et propreté :
 sam-le-leader/
 │
 ├── index.html          # Page d'accueil (Hero + Services + Témoignages + Contact)
-├── services.html       # Page détaillée des services
-├── boutique.html       # Galerie photo / Portfolio des réalisations
+├── service.html        # Page détaillée des services & Formations DSI
+├── project.html        # Portfolio & Réalisations
+├── contact.html        # Formulaire de contact & Localisation
 │
 ├── css/
 │   └── style.css       # Styles globaux (design system, composants, responsive)
 │
 ├── js/
-│   └── script.js       # Logique JS : navbar, multilangue (FR/EN), AOS init
-│
-├── assets/
-│   └── formation-pro.jpeg  # Photo de formation (slide carrousel)
+│   └── main.js         # Logique JS : navbar, animations, carrousels
 │
 └── README.md           # Ce fichier
 ```
 
-| Technologie                 | Usage                                                   |
-| --------------------------- | ------------------------------------------------------- |
-| **HTML5**                   | Structure sémantique des pages                          |
-| **CSS3 Vanilla**            | Design system, glassmorphism, animations, responsive    |
-| **JavaScript ES6+**         | Logique multilangue FR/EN, navbar scrolled, mobile menu |
-| **Swiper.js v11**           | Carrousel premium Hero Section                          |
-| **AOS (Animate On Scroll)** | Animations d'apparition sur scroll                      |
-| **FontAwesome 6**           | Icônes vectorielles                                     |
-| **Google Fonts**            | Typographies : _Outfit_ (titres) + _Inter_ (corps)      |
+| Technologie              | Usage                                                |
+| ------------------------ | ---------------------------------------------------- |
+| **HTML5**                | Structure sémantique des pages                       |
+| **CSS3 Vanilla**         | Design system, glassmorphism, animations, responsive |
+| **JavaScript ES6+**      | Logique d'affichage, animations, navbar dynamic      |
+| **Owl Carousel**         | Carrousels premium Hero & Témoignages                |
+| **WOW.js / Animate.css** | Animations d'apparition sur scroll                   |
+| **FontAwesome 6**        | Icônes vectorielles                                  |
+| **Google Fonts**         | Typographies : _Outfit_ (titres) + _Inter_ (corps)   |
 
-### Palette de Couleurs
+### Palette de Couleurs (Brand)
 
-| Couleur   | Variable         | Usage                               |
-| --------- | ---------------- | ----------------------------------- |
-| `#f59e0b` | `--primary`      | Gold — accent principal, leadership |
-| `#3b82f6` | `--accent`       | Bleu — informatique                 |
-| `#a855f7` | —                | Violet — haute couture              |
-| `#10b981` | —                | Vert — lavage & nettoyage           |
-| `#0f172a` | `--bg-dark`      | Fond sombre principal               |
-| `#1e293b` | `--bg-secondary` | Fond sections alternées             |
+| Couleur   | Variable          | Usage                                 |
+| --------- | ----------------- | ------------------------------------- |
+| `#2563eb` | `--primary`       | Bleu Royal — informatique & confiance |
+| `#111827` | `--secondary`     | Noir Profond — élégance               |
+| `#a855f7` | `--accent-purple` | Violet — haute couture                |
+| `#f59e0b` | `--accent-gold`   | Or/Ambre — tourisme & prestige        |
+| `#111827` | `--bg-dark`       | Fond sombre principal                 |
 
 ### Fonctionnalités
 
-- ✅ **Design 100% Responsive** (Mobile → Desktop)
-- ✅ **Bilingue FR/EN** — changement de langue instantané sans rechargement
-- ✅ **Navbar scrolled** — s'adapte au scroll avec effet glassmorphism
-- ✅ **Hero carrousel** — 5 slides animés avec autoplay, fade, compteur dynamique
-- ✅ **Animations AOS** — effets d'apparition soignés sur toute la page
-- ✅ **Bouton WhatsApp flottant** — accès rapide au contact WhatsApp
-- ✅ **SEO optimisé** — meta description, keywords, données structurées JSON-LD
-- ✅ **Design glassmorphism** — effets de flou et transparence modernes
+- ✅ **GTM & GA4 Intégrés** : Suivi analytique complet (GTM-W67HVQS5)
+- ✅ **Design 100% Responsive** : Optimisé pour tous les écrans
+- ✅ **Section Formations DSI** : Tableau de prix détaillé et conditions d'inscription
+- ✅ **SEO Optimisé** : Données structurées JSON-LD, Meta tags avancés, Sitemap
+- ✅ **Bouton WhatsApp flottant** : Contact direct et rapide
+- ✅ **Portfolio Filtrable** : Galerie par catégories (Info, Couture, Tourisme)
 
 ---
 
@@ -127,11 +122,9 @@ sam-le-leader/
 | Canal                  | Information                                         |
 | ---------------------- | --------------------------------------------------- |
 | 📱 **WhatsApp / Tél.** | [+229 01 94 25 04 47](https://wa.me/2290194250447)  |
-| 📧 **Email**           | [Sdossou176@glaim.com](mailto:Sdossou176@glaim.com) |
+| 📧 **Email**           | [Sdossou176@gmail.com](mailto:Sdossou176@gmail.com) |
 | 📍 **Adresse**         | Cocotomey / Abomey-Calavi, Bénin                    |
-| 🌍 **Réseaux sociaux** | Facebook · Instagram · LinkedIn                     |
-
----
+| 🌍 **Réseaux sociaux** | Facebook · Instagram · WhatsApp                     |
 
 ---
 
@@ -149,8 +142,6 @@ npx serve .
 python3 -m http.server 8080
 ```
 
-Puis visiter : `http://localhost:8080`
-
 ---
 
 ## 🤝 Crédits & Partenaires
@@ -158,7 +149,7 @@ Puis visiter : `http://localhost:8080`
 | Rôle                       | Entité                                                                    |
 | -------------------------- | ------------------------------------------------------------------------- |
 | **Client**                 | Sam Le Leader DS                                                          |
-| **Design & Développement** | [Nexus Partners](https://nexus-partners.xyz)                              |
+| **Design & Développement** | [Nexus Partners](https://nexuspartners.xyz)                               |
 | **Auteur**                 | @hopsyder                                                                 |
 | **Contact développeur**    | [daoudaabassichristian@gmail.com](mailto:daoudaabassichristian@gmail.com) |
 
@@ -168,6 +159,6 @@ Puis visiter : `http://localhost:8080`
 
 **© 2026 Sam Le Leader DS · Tous droits réservés**
 
-_Designed with ❤️ by [Nexus Partners](https://nexus-partners.xyz)_
+_Designed with ❤️ by [Nexus Partners](https://nexuspartners.xyz)_
 
 </div>

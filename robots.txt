@@ -1,0 +1,19 @@
+# Robots.txt — Sam Le Leader DS
+# Généré par Nexus Partners | @hopsyder
+# https://samlelead erds.com
+
+User-agent: *
+Allow: /
+
+# Autoriser les crawlers principaux
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Sitemap
+Sitemap: https://samleleaderds.com/sitemap.xml

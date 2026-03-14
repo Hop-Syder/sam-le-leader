@@ -1,15 +1,60 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" prefix="og: https://ogp.me/ns#">
 
 <head>
     <meta charset="utf-8">
-    <title>Contact — Sam Le Leader DS | Informatique, Stylisme & Lavage | Abomey-Calavi, Bénin</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="keywords"
-        content="contact Sam Le Leader DS, WhatsApp Bénin, devis informatique, rendez-vous couture, Abomey-Calavi">
+
+    <!-- ===== SEO PRIMAIRE ===== -->
+    <title>Contact — Sam Le Leader DS | Devis Gratuit | Abomey-Calavi, Bénin</title>
     <meta name="description"
-        content="Contactez Sam Le Leader DS à Cocotomey / Abomey-Calavi pour tous vos besoins en informatique, stylisme haute couture ou lavage auto. Réponse rapide garantie.">
+        content="Contactez Sam Le Leader DS à Cocotomey / Abomey-Calavi. Devis gratuit pour informatique, stylisme haute couture ou circuits touristiques au Bénin. Réponse WhatsApp rapide garantie.">
+    <meta name="keywords"
+        content="contact Sam Le Leader DS, WhatsApp Bénin, devis informatique Abomey-Calavi, rendez-vous couture, tourisme Bénin contact, Cocotomey">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://samleleaderds.com/contact.html">
+
+    <!-- ===== OPEN GRAPH ===== -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="Sam Le Leader DS">
+    <meta property="og:title" content="Contactez Sam Le Leader DS — Devis Gratuit | Bénin">
+    <meta property="og:description"
+        content="Devis gratuit pour informatique, stylisme & tourisme à Abomey-Calavi. Réponse sous 1h sur WhatsApp.">
+    <meta property="og:url" content="https://samleleaderds.com/contact.html">
+    <meta property="og:image" content="https://samleleaderds.com/img/newsletter.jpg">
+    <meta property="og:image:alt" content="Contact Sam Le Leader DS Bénin">
+
+    <!-- ===== TWITTER CARD ===== -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contactez Sam Le Leader DS — Bénin">
+    <meta name="twitter:description" content="Devis gratuit informatique, stylisme & tourisme 🇧🇯">
+    <meta name="twitter:image" content="https://samleleaderds.com/img/newsletter.jpg">
+
+    <!-- ===== FAVICON ===== -->
     <link href="img/favicon.ico" rel="icon">
+    <link rel="apple-touch-icon" href="img/favicon.ico">
+
+    <!-- ===== GOOGLE TAG MANAGER ===== -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W67HVQS5');</script>
+
+    <!-- ===== GOOGLE ANALYTICS 4 (GA4) ===== -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3S6PG5N7S2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-3S6PG5N7S2');
+    </script>
+
+    <!-- ===== POLICES ===== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -24,6 +69,10 @@
 </head>
 
 <body>
+    <!-- ===== GOOGLE TAG MANAGER (noscript) ===== -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W67HVQS5" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+
     <!-- Spinner -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -43,7 +92,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="index.html" class="nav-item nav-link">Accueil</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <a href="service.html" class="nav-item nav-link">Services</a><a href="service.html#formations" class="nav-item nav-link">Formations</a>
                         <a href="project.html" class="nav-item nav-link">Réalisations</a>
                         <a href="contact.html" class="nav-item nav-link active">Contact</a>
                         <a href="https://wa.me/2290194250447" target="_blank"
@@ -158,9 +207,8 @@
                                         <option value="formation-info">🎓 Formation Informatique</option>
                                         <option value="stylisme">✂️ Stylisme Haute Couture</option>
                                         <option value="formation-couture">🧵 Formation Couture</option>
-                                        <option value="lavage-auto">🚗 Lavage Voiture</option>
-                                        <option value="lavage-moto">🏍️ Lavage Moto</option>
-                                        <option value="nettoyage">🧹 Nettoyage Moquette</option>
+                                        <option value="tourisme">🌍 Tourisme Culturel Bénin</option>
+                                        <option value="ecotourisme">🌳 Écotourisme & Safari Pendjari</option>
                                         <option value="autre">Autre demande</option>
                                     </select>
                                     <label for="contact-service">Service souhaité</label>
@@ -325,7 +373,7 @@
                     <h5 class="text-white mb-4">Nos Services</h5>
                     <a class="btn btn-link" href="service.html">Informatique & Bureautique</a>
                     <a class="btn btn-link" href="service.html">Stylisme Haute Couture</a>
-                    <a class="btn btn-link" href="service.html">Lavage de Voiture</a>
+                    <a class="btn btn-link" href="service.html">Tourisme au Bénin</a>
                     <a class="btn btn-link" href="service.html">Formations Pro</a>
                 </div>
             </div>
