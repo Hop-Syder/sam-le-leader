@@ -20,7 +20,7 @@
     };
     spinner();
 
-    
+
     // Initiate the wowjs
     new WOW().init();
 
@@ -34,7 +34,7 @@
         }
     });
 
-    
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -44,7 +44,7 @@
         }
     });
     $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
         return false;
     });
 
@@ -74,16 +74,16 @@
         nav: false
     });
 
-    
+
     // WhatsApp Float — afficher après 3 secondes
-    setTimeout(function() {
+    setTimeout(function () {
         $('.whatsapp-float').css('opacity', '1');
     }, 3000);
 
 
     // Active nav link selon page courante
     var currentPage = window.location.pathname.split('/').pop();
-    $('.navbar-nav .nav-link').each(function() {
+    $('.navbar-nav .nav-link').each(function () {
         if ($(this).attr('href') === currentPage) {
             $(this).addClass('active');
         }
@@ -91,9 +91,9 @@
 
 
     // Animation hover sur les mini-service-cards
-    $('.mini-service-card').hover(function() {
+    $('.mini-service-card').hover(function () {
         $(this).find('i').addClass('fa-bounce');
-    }, function() {
+    }, function () {
         $(this).find('i').removeClass('fa-bounce');
     });
 
@@ -107,15 +107,14 @@
         'IMG-20260314-WA0181.jpg', 'IMG-20260314-WA0182.jpg', 'IMG-20260314-WA0183.jpg',
         'IMG-20260314-WA0184.jpg', 'IMG-20260314-WA0185.jpg', 'IMG-20260314-WA0186.jpg',
         'IMG-20260314-WA0187.jpg', 'IMG-20260314-WA0188.jpg', 'IMG-20260314-WA0189.jpg',
-        'IMG-20260314-WA0190.jpg', 'IMG-20260314-WA0191.jpg', 'IMG-20260314-WA0192.jpg',
-        'IMG-20260314-WA0194.jpg', 'IMG-20260314-WA0195.jpg', 'IMG-20260314-WA0196.jpg'
+        'IMG-20260314-WA0190.jpg', 'IMG-20260314-WA0191.jpg', 'IMG-20260314-WA0192.jpg'
     ];
 
     function showRandomAd() {
         // Sélection aléatoire
         var randomAd = ads[Math.floor(Math.random() * ads.length)];
         var adPath = 'img/publie/' + randomAd;
-        
+
         // Création du markup du popup
         var adMarkup = `
             <div class="ad-popup-overlay" id="adPopup">
@@ -126,16 +125,16 @@
                 </div>
             </div>
         `;
-        
+
         $('body').append(adMarkup);
-        
+
         // Affichage avec un léger délai après le chargement (2s)
-        setTimeout(function() {
+        setTimeout(function () {
             $('#adPopup').addClass('show');
-            
+
             // Compte à rebours
             var timeLeft = 5;
-            var countdown = setInterval(function() {
+            var countdown = setInterval(function () {
                 timeLeft--;
                 $('#adTimer').text(timeLeft);
                 if (timeLeft <= 0) {
@@ -143,20 +142,20 @@
                     closePopup();
                 }
             }, 1000);
-            
+
             // Fermeture manuelle
-            $('#closeAd, #adPopup').on('click', function(e) {
+            $('#closeAd, #adPopup').on('click', function (e) {
                 if (e.target !== this && this.id === 'adPopup') return;
                 clearInterval(countdown);
                 closePopup();
             });
-            
+
         }, 2000);
     }
 
     function closePopup() {
         $('#adPopup').removeClass('show');
-        setTimeout(function() {
+        setTimeout(function () {
             $('#adPopup').remove();
         }, 600);
     }
