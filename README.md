@@ -88,7 +88,8 @@ sam-le-leader/
 
 | Technologie              | Usage                                                |
 | ------------------------ | ---------------------------------------------------- |
-| **HTML5**                | Structure sémantique des pages                       |
+| logo.jpg                 | Logo officiel de la marque                           |
+| HTML5                    | Structure sémantique des pages                       |
 | **CSS3 Vanilla**         | Design system, glassmorphism, animations, responsive |
 | **JavaScript ES6+**      | Logique d'affichage, animations, navbar dynamic      |
 | **Owl Carousel**         | Carrousels premium Hero & Témoignages                |
