@@ -160,9 +160,11 @@
         }, 600);
     }
 
-    // Lancer la pub uniquement sur l'accueil (index.html ou racine)
+    // Lancer la pub sur l'accueil et sur la page des services
     var isHome = window.location.pathname === '/' || window.location.pathname.endsWith('index.html');
-    if (isHome) {
+    var isService = window.location.pathname.endsWith('service.html');
+
+    if (isHome || isService) {
         showRandomAd();
     }
 
