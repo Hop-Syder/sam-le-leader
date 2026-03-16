@@ -47,6 +47,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+h4.text-white.lh-base.mb-0 {
+    font-size: 14px;
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -148,6 +152,18 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+.hero-header h1.display-1 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.hero-header h5.d-inline-block {
+    border-width: 1px;
+    border-color: transparent;
+    border-image: none;
+}
+
 .header-carousel {
     position: relative;
     padding: 45px 90px 45px 0;
@@ -229,6 +245,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer .btn.btn-link {
     display: block;
     color: rgba(255, 255, 255, .5);
+    text-align: left;
     transition: .3s;
 }
 .footer .btn.btn-link:hover { color: var(--bs-white); letter-spacing: 1px; }

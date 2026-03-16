@@ -138,14 +138,17 @@
                 style="--bs-btn-hover-bg: #a855f7; --bs-btn-hover-border-color: #a855f7;">✂️ Stylisme</button>
             <button class="btn btn-outline-primary px-4 py-2 filter-btn" data-filter="tourisme"
                 style="--bs-btn-hover-bg: #f59e0b; --bs-btn-hover-border-color: #f59e0b;">🌍 Tourisme</button>
+            <button class="btn btn-outline-primary px-4 py-2 filter-btn" data-filter="formation"
+                style="--bs-btn-hover-bg: #10b981; --bs-btn-hover-border-color: #10b981;">📚 Formations</button>
         </div>
     </div>
 
     <!-- Galerie Projets -->
     <div class="container-fluid py-0 pb-5">
         <div class="container">
+
             <!-- Informatique -->
-            <div class="mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="mb-5 wow fadeIn portfolio-section" data-wow-delay="0.1s" data-category="info">
                 <div class="d-flex align-items-center mb-4">
                     <div class="me-3" style="width:4px;height:40px;background:#2563eb;"></div>
                     <h2 class="mb-0"><i class="fa fa-desktop me-2" style="color:#2563eb;"></i>Informatique &amp;
@@ -155,41 +158,203 @@
                 <div class="row g-0">
                     <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
                         <div class="d-flex flex-column justify-content-center h-100 p-5" style="background:#2563eb;">
-                            <h2 class="text-white mb-4">Formation & Support <span class="text-uppercase px-2"
+                            <h2 class="text-white mb-4">Vente &amp; Maintenance <span class="text-uppercase px-2"
                                     style="background:rgba(255,255,255,0.2);">Tech</span></h2>
-                            <p class="text-white mb-0">Nos formations informatiques et sessions de support technique ont
-                                permis à des dizaines de professionnels de maîtriser les outils numériques.</p>
+                            <p class="text-white mb-0">Vente d’ordinateurs et de matériel informatique, maintenance
+                                et réparation : nous accompagnons professionnels et particuliers pour équiper et
+                                faire fonctionner leurs équipements.</p>
                             <a href="service.html" class="btn btn-light mt-4 rounded-0 align-self-start px-4">Voir le
                                 service</a>
                         </div>
                     </div>
                     <div class="col-lg-7">
                         <div class="row g-0">
-                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+                            <!-- Ligne 1 : 2 images -->
+                            <div class="col-md-6 wow fadeIn" data-wow-delay="0.2s">
                                 <div class="project-item position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/project-1.jpg" alt="Formation informatique">
+                                    <img class="img-fluid w-100" src="img/informatique-2.jpg"
+                                        alt="Vente ordinateurs et matériel informatique">
                                     <a class="project-overlay text-decoration-none" href="contact.html">
-                                        <h4 class="text-white">Formation</h4><small class="text-white">Bureautique
-                                            Pro</small>
+                                        <h4 class="text-white">Vente ordinateurs</h4><small class="text-white">Matériel
+                                            informatique &amp; accessoires</small>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
                                 <div class="project-item position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/project-2.jpg" alt="Vente ordinateurs">
+                                    <img class="img-fluid w-100" src="img/informatique-6.jpg"
+                                        alt="Maintenance et réparation informatique">
                                     <a class="project-overlay text-decoration-none" href="contact.html">
-                                        <h4 class="text-white">Vente Matériel</h4><small class="text-white">PC &
-                                            Accessoires</small>
+                                        <h4 class="text-white">Maintenance</h4><small class="text-white">Réparation
+                                            &amp; support technique</small>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+                            <!-- Ligne 2 : 2 images -->
+                            <div class="col-md-6 wow fadeIn" data-wow-delay="0.4s">
                                 <div class="project-item position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Support technique">
+                                    <img class="img-fluid w-100" src="img/informatique-3.jpg"
+                                        alt="Support informatique et assistance">
                                     <a class="project-overlay text-decoration-none" href="contact.html">
-                                        <h4 class="text-white">Support Tech</h4><small class="text-white">Maintenance &
-                                            Réparation</small>
+                                        <h4 class="text-white">Support</h4><small class="text-white">Assistance
+                                            informatique</small>
                                     </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-7.jpg"
+                                        alt="Équipements et accessoires informatiques">
+                                    <a class="project-overlay text-decoration-none" href="contact.html">
+                                        <h4 class="text-white">Équipements</h4><small class="text-white">Accessoires
+                                            &amp; périphériques</small>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Galerie informatique -->
+                <div class="mt-5 pt-4">
+                    <!-- Mobile: bouton déroulant -->
+                    <button class="btn btn-link p-0 d-md-none text-decoration-none"
+                        style="color:#2563eb;font-weight:600;" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#galerieInformatique" aria-expanded="false" aria-controls="galerieInformatique">
+                        <i class="fa fa-images me-2"></i>Galerie informatique
+                    </button>
+
+                    <!-- Desktop: titre simple -->
+                    <h5 class="mb-4 d-none d-md-block" style="color:#2563eb;"><i class="fa fa-images me-2"></i>Galerie
+                        informatique</h5>
+
+                    <!-- Mobile: galerie cachée par défaut -->
+                    <div class="collapse d-md-none mt-3" id="galerieInformatique">
+                        <div class="row g-3 row-cols-2">
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-1.jpg"
+                                        alt="Galerie informatique 1" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-2.jpg"
+                                        alt="Galerie informatique 2" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-3.jpg"
+                                        alt="Galerie informatique 3" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-4.jpg"
+                                        alt="Galerie informatique 4" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-5.jpg"
+                                        alt="Galerie informatique 5" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-6.jpg"
+                                        alt="Galerie informatique 6" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-7.jpg"
+                                        alt="Galerie informatique 7" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-8.jpg"
+                                        alt="Galerie informatique 8" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-9.jpg"
+                                        alt="Galerie informatique 9" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-10.jpg"
+                                        alt="Galerie informatique 10" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Desktop: galerie toujours visible -->
+                    <div class="d-none d-md-block">
+                        <div class="row g-3 row-cols-2 row-cols-md-3 row-cols-lg-5">
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-1.jpg"
+                                        alt="Galerie informatique 1" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-2.jpg"
+                                        alt="Galerie informatique 2" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-3.jpg"
+                                        alt="Galerie informatique 3" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-4.jpg"
+                                        alt="Galerie informatique 4" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-5.jpg"
+                                        alt="Galerie informatique 5" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-6.jpg"
+                                        alt="Galerie informatique 6" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-7.jpg"
+                                        alt="Galerie informatique 7" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-8.jpg"
+                                        alt="Galerie informatique 8" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-9.jpg"
+                                        alt="Galerie informatique 9" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/galerie-informatique/informatique-10.jpg"
+                                        alt="Galerie informatique 10" style="object-fit:cover;height:180px;">
                                 </div>
                             </div>
                         </div>
@@ -198,38 +363,54 @@
             </div>
 
             <!-- Stylisme -->
-            <div class="mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="mb-5 wow fadeIn portfolio-section" data-wow-delay="0.1s" data-category="couture">
                 <div class="d-flex align-items-center mb-4">
                     <div class="me-3" style="width:4px;height:40px;background:#a855f7;"></div>
                     <h2 class="mb-0"><i class="fa fa-cut me-2" style="color:#a855f7;"></i>Stylisme Haute Couture</h2>
                 </div>
                 <div class="row g-0">
+
                     <div class="col-lg-7">
                         <div class="row g-0">
-                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+                            <!-- Ligne 1 : 2 images -->
+                            <div class="col-md-6 wow fadeIn" data-wow-delay="0.2s">
                                 <div class="project-item position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/project-5.jpg" alt="Tenue sur mesure">
+                                    <img class="img-fluid w-100" src="img/stylisme-4.jpeg"
+                                        alt="Vente ordinateurs et matériel informatique">
                                     <a class="project-overlay text-decoration-none" href="contact.html">
                                         <h4 class="text-white">Tenue Femme</h4><small class="text-white">Confection sur
                                             mesure</small>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
                                 <div class="project-item position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/about-1.jpg" alt="Stylisme homme">
+                                    <img class="img-fluid w-100" src="img/stylisme=7.jpeg"
+                                        alt="Maintenance et réparation informatique">
                                     <a class="project-overlay text-decoration-none" href="contact.html">
                                         <h4 class="text-white">Tenue Homme</h4><small class="text-white">Costume sur
                                             mesure</small>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+                            <!-- Ligne 2 : 2 images -->
+                            <div class="col-md-6 wow fadeIn" data-wow-delay="0.4s">
                                 <div class="project-item position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/service-2.jpg" alt="Formation couture">
+                                    <img class="img-fluid w-100" src="img/stylisme-3.jpg"
+                                        alt="Tenues de soirée et robes sur mesure">
                                     <a class="project-overlay text-decoration-none" href="contact.html">
-                                        <h4 class="text-white">Formation</h4><small class="text-white">Modélisme &
-                                            Couture</small>
+                                        <h4 class="text-white">Soirée &amp; Gala</h4><small class="text-white">Robes
+                                            &amp; caftans sur mesure</small>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/stylisme-5.jpg"
+                                        alt="Accessoires mode et bijoux">
+                                    <a class="project-overlay text-decoration-none" href="contact.html">
+                                        <h4 class="text-white">Accessoires Mode</h4><small class="text-white">Sacs,
+                                            ceintures &amp; bijoux</small>
                                     </a>
                                 </div>
                             </div>
@@ -246,10 +427,360 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Galerie Stylisme -->
+                <div class="mt-5 pt-4">
+                    <!-- Mobile: bouton déroulant -->
+                    <button class="btn btn-link p-0 d-md-none text-decoration-none"
+                        style="color:#2563eb;font-weight:600;" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#galerieInformatique" aria-expanded="false" aria-controls="galerieInformatique">
+                        <i class="fa fa-images me-2"></i>Galerie Stylisme
+                    </button>
+
+                    <!-- Desktop: titre simple -->
+                    <h5 class="mb-4 d-none d-md-block" style="color:#2563eb;"><i class="fa fa-images me-2"></i>Galerie
+                        Stylisme Haute Couture</h5>
+
+                    <!-- Mobile: galerie cachée par défaut -->
+                    <div class="collapse d-md-none mt-3" id="galerieInformatique">
+                        <div class="row g-3 row-cols-2">
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/project-1.jpg" alt="Galerie informatique 1"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/project-2.jpg" alt="Galerie informatique 2"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Galerie informatique 3"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-4.jpg" alt="Galerie informatique 4"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Informatique-5.jpg"
+                                        alt="Galerie informatique 5" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Ordinateurs-1.jpg"
+                                        alt="Galerie informatique 6" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-2.jpg"
+                                        alt="Galerie informatique 7" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-3.jpg"
+                                        alt="Galerie informatique 8" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-4.jpg"
+                                        alt="Galerie informatique 9" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Galerie informatique 10"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Desktop: galerie toujours visible -->
+                    <div class="d-none d-md-block">
+                        <div class="row g-3 row-cols-2 row-cols-md-3 row-cols-lg-5">
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/project-1.jpg" alt="Galerie informatique 1"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/project-2.jpg" alt="Galerie informatique 2"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Galerie informatique 3"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-4.jpg" alt="Galerie informatique 4"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Informatique-5.jpg"
+                                        alt="Galerie informatique 5" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Ordinateurs-1.jpg"
+                                        alt="Galerie informatique 6" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-2.jpg"
+                                        alt="Galerie informatique 7" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-3.jpg"
+                                        alt="Galerie informatique 8" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-4.jpg"
+                                        alt="Galerie informatique 9" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Galerie informatique 10"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Formations -->
+            <div class="mb-5 wow fadeIn portfolio-section" data-wow-delay="0.1s" data-category="formation">
+                <div class="d-flex align-items-center mb-4">
+                    <div class="me-3" style="width:4px;height:40px;background:#10b981;"></div>
+                    <h2 class="mb-0"><i class="fa fa-graduation-cap me-2" style="color:#10b981;"></i>Formations
+                        professionnelles</h2>
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex flex-column justify-content-center h-100 p-5" style="background:#10b981;">
+                            <h2 class="text-white mb-4">Apprendre <span class="text-uppercase px-2"
+                                    style="background:rgba(255,255,255,0.2);">&amp; Grandir</span></h2>
+                            <p class="text-white mb-0">Bureautique, informatique, modélisme et couture — nos formations
+                                professionnelles permettent à chacun de développer des compétences reconnues sur le
+                                marché
+                                du travail.</p>
+                            <a href="service.html" class="btn btn-light mt-4 rounded-0 align-self-start px-4">Voir nos
+                                formations</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row g-0">
+                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/project-1.jpg" alt="Formation bureautique"
+                                        style="object-fit:cover;height:200px;">
+                                    <a class="project-overlay text-decoration-none" href="contact.html">
+                                        <h4 class="text-white">Formation</h4><small class="text-white">Bureautique
+                                            Pro</small>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-2.jpg" alt="Formation couture"
+                                        style="object-fit:cover;height:200px;">
+                                    <a class="project-overlay text-decoration-none" href="contact.html">
+                                        <h4 class="text-white">Formation</h4><small class="text-white">Modélisme &amp;
+                                            Couture</small>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Formation informatique"
+                                        style="object-fit:cover;height:200px;">
+                                    <a class="project-overlay text-decoration-none" href="contact.html">
+                                        <h4 class="text-white">Formation</h4><small class="text-white">Informatique
+                                            &amp; Support</small>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Galerie Formations -->
+                <div class="mt-5 pt-4">
+                    <!-- Mobile: bouton déroulant -->
+                    <button class="btn btn-link p-0 d-md-none text-decoration-none"
+                        style="color:#2563eb;font-weight:600;" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#galerieInformatique" aria-expanded="false" aria-controls="galerieInformatique">
+                        <i class="fa fa-images me-2"></i>Galerie Formations professionnelles
+                    </button>
+
+                    <!-- Desktop: titre simple -->
+                    <h5 class="mb-4 d-none d-md-block" style="color:#2563eb;"><i class="fa fa-images me-2"></i>Galerie
+                        Formations professionnelles</h5>
+
+                    <!-- Mobile: galerie cachée par défaut -->
+                    <div class="collapse d-md-none mt-3" id="galerieInformatique">
+                        <div class="row g-3 row-cols-2">
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/project-1.jpg" alt="Galerie informatique 1"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/project-2.jpg" alt="Galerie informatique 2"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Galerie informatique 3"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-4.jpg" alt="Galerie informatique 4"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Informatique-5.jpg"
+                                        alt="Galerie informatique 5" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Ordinateurs-1.jpg"
+                                        alt="Galerie informatique 6" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-2.jpg"
+                                        alt="Galerie informatique 7" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-3.jpg"
+                                        alt="Galerie informatique 8" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-4.jpg"
+                                        alt="Galerie informatique 9" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Galerie informatique 10"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Desktop: galerie toujours visible -->
+                    <div class="d-none d-md-block">
+                        <div class="row g-3 row-cols-2 row-cols-md-3 row-cols-lg-5">
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/project-1.jpg" alt="Galerie informatique 1"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/project-2.jpg" alt="Galerie informatique 2"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Galerie informatique 3"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-4.jpg" alt="Galerie informatique 4"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Informatique-5.jpg"
+                                        alt="Galerie informatique 5" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Ordinateurs-1.jpg"
+                                        alt="Galerie informatique 6" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-2.jpg"
+                                        alt="Galerie informatique 7" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-3.jpg"
+                                        alt="Galerie informatique 8" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-4.jpg"
+                                        alt="Galerie informatique 9" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Galerie informatique 10"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Tourisme -->
-            <div class="mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="mb-5 wow fadeIn portfolio-section" data-wow-delay="0.1s" data-category="tourisme">
                 <div class="d-flex align-items-center mb-4">
                     <div class="me-3" style="width:4px;height:40px;background:#f59e0b;"></div>
                     <h2 class="mb-0"><i class="fa fa-globe-africa me-2" style="color:#f59e0b;"></i>Tourisme & Découverte
@@ -297,6 +828,154 @@
                                         <h4 class="text-white">Palais Abomey</h4><small class="text-white">Héritage
                                             royal UNESCO</small>
                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Galerie Tourisme -->
+                <div class="mt-5 pt-4">
+                    <!-- Mobile: bouton déroulant -->
+                    <button class="btn btn-link p-0 d-md-none text-decoration-none"
+                        style="color:#2563eb;font-weight:600;" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#galerieInformatique" aria-expanded="false" aria-controls="galerieInformatique">
+                        <i class="fa fa-images me-2"></i>Galerie Tourisme & Découverte
+                        du Bénin
+                    </button>
+
+                    <!-- Desktop: titre simple -->
+                    <h5 class="mb-4 d-none d-md-block" style="color:#2563eb;"><i class="fa fa-images me-2"></i> Galerie
+                        Tourisme & Découverte
+                        du Bénin </h5>
+
+                    <!-- Mobile: galerie cachée par défaut -->
+                    <div class="collapse d-md-none mt-3" id="galerieInformatique">
+                        <div class="row g-3 row-cols-2">
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/project-1.jpg" alt="Galerie informatique 1"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/project-2.jpg" alt="Galerie informatique 2"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Galerie informatique 3"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-4.jpg" alt="Galerie informatique 4"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Informatique-5.jpg"
+                                        alt="Galerie informatique 5" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Ordinateurs-1.jpg"
+                                        alt="Galerie informatique 6" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-2.jpg"
+                                        alt="Galerie informatique 7" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-3.jpg"
+                                        alt="Galerie informatique 8" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-4.jpg"
+                                        alt="Galerie informatique 9" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Galerie informatique 10"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Desktop: galerie toujours visible -->
+                    <div class="d-none d-md-block">
+                        <div class="row g-3 row-cols-2 row-cols-md-3 row-cols-lg-5">
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/project-1.jpg" alt="Galerie informatique 1"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/project-2.jpg" alt="Galerie informatique 2"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Galerie informatique 3"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-4.jpg" alt="Galerie informatique 4"
+                                        style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Informatique-5.jpg"
+                                        alt="Galerie informatique 5" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/Ordinateurs-1.jpg"
+                                        alt="Galerie informatique 6" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-2.jpg"
+                                        alt="Galerie informatique 7" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-3.jpg"
+                                        alt="Galerie informatique 8" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/informatique-4.jpg"
+                                        alt="Galerie informatique 9" style="object-fit:cover;height:180px;">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="project-item position-relative overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="Galerie informatique 10"
+                                        style="object-fit:cover;height:180px;">
                                 </div>
                             </div>
                         </div>

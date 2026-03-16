@@ -168,5 +168,23 @@
         showRandomAd();
     }
 
+    /**
+     * Filtre portfolio (page Réalisations / project.html)
+     * Filtres : all, info, couture, tourisme, formation
+     */
+    if (window.location.pathname.endsWith('project.html') && $('.filter-btn').length) {
+        $('.filter-btn').on('click', function () {
+            var filter = $(this).data('filter');
+            $('.filter-btn').removeClass('active btn-primary').addClass('btn-outline-primary');
+            $(this).addClass('active btn-primary').removeClass('btn-outline-primary');
+
+            $('.portfolio-section').each(function () {
+                var cat = $(this).data('category') || '';
+                var show = filter === 'all' || cat.indexOf(filter) !== -1;
+                $(this).toggle(show);
+            });
+        });
+    }
+
 
 })(jQuery);
