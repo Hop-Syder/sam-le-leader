@@ -16,7 +16,7 @@
             if ($('#spinner').length > 0) {
                 $('#spinner').removeClass('show');
             }
-        }, 1);
+        }, 5000); // Délai de 5 secondes pour un chargement complet
     };
     spinner();
 
