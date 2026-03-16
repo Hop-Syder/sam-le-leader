@@ -129,7 +129,7 @@
                 <div class="ad-popup-content">
                     <div class="ad-popup-close" id="closeAd"><i class="fa fa-times"></i></div>
                     <img src="${adPath}" alt="Publicité Sam Le Leader DS" class="ad-popup-image">
-                    <div class="ad-popup-timer">Fermeture dans <span id="adTimer">5</span>s</div>
+                    <div class="ad-popup-timer">Fermeture dans <span id="adTimer">10</span>s</div>
                 </div>
             </div>
         `;
@@ -141,7 +141,7 @@
             $('#adPopup').addClass('show');
 
             // Compte à rebours
-            var timeLeft = 5;
+            var timeLeft = 10;
             var countdown = setInterval(function () {
                 timeLeft--;
                 $('#adTimer').text(timeLeft);
