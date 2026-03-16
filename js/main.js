@@ -63,15 +63,23 @@
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
-        items: 1,
         autoplay: true,
         autoplayTimeout: 5000,
         smartSpeed: 1000,
-        animateIn: 'fadeIn',
-        animateOut: 'fadeOut',
         dots: true,
         loop: true,
-        nav: false
+        nav: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            992: {
+                items: 3
+            }
+        }
     });
 
 
