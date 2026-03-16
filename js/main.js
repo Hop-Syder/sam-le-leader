@@ -14,7 +14,7 @@
     var spinner = function () {
         setTimeout(function () {
             if ($('#spinner').length > 0) {
-                $('#spinner').removeClass('show');
+                $('#spinner').addClass('hide');
             }
         }, 5000); // Délai de 5 secondes pour un chargement complet
     };
